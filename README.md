@@ -1,5 +1,4 @@
-### Digital Reputation Challenge
-## 8th place solution
+### Digital Reputation Challenge, 8th place solution
 **Author:** [Ambitious](https://boosters.pro/user/Ambitious)
 
 # jupyter notebooks
