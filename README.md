@@ -1,7 +1,7 @@
 ### [Digital Reputation Challenge](https://boosters.pro/championship/digital_reputation_challenge/overview), 8th place solution
 **Author:** [Ambitious](https://boosters.pro/user/Ambitious)
 
-# jupyter notebooks
+# notebooks
 
 * end-to-end submit creation: [pipeline.ipynb](https://github.com/KhrylchenkoKirill/digital_reputation/blob/master/pipeline.ipynb)
 
