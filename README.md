@@ -4,7 +4,7 @@
 
 # jupyter notebooks
 
-* pipeline: [pipeline.ipynb](https://github.com/KhrylchenkoKirill/digital_reputation/blob/master/pipeline.ipynb)
+* end-to-end submit creation: [pipeline.ipynb](https://github.com/KhrylchenkoKirill/digital_reputation/blob/master/pipeline.ipynb)
 
 # module [utils](https://github.com/KhrylchenkoKirill/digital_reputation/blob/master/utils/)
 
