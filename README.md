@@ -6,7 +6,7 @@
 
 * pipeline: [pipeline.ipynb](https://github.com/KhrylchenkoKirill/digital_reputation/blob/master/pipeline.ipynb)
 
-# 'utils' module
+# module [utils](https://github.com/KhrylchenkoKirill/digital_reputation/blob/master/utils/)
 
 * data loading: [data.py](https://github.com/KhrylchenkoKirill/digital_reputation/blob/master/utils/data.py)
 * cross-validation model training wrapper: [model.py](https://github.com/KhrylchenkoKirill/digital_reputation/blob/master/utils/models.py)
