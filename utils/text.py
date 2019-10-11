@@ -4,7 +4,7 @@ import pandas as pd
 from collections import Counter
 
 class Tokenizer:
-    
+    ''' Tokenizer for mapping token values to indices and replacing rare tokens with OOV token. '''
     def __init__(self, min_df):
         self.min_df = min_df
         self.vocab = None
