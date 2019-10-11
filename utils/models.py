@@ -6,7 +6,7 @@ from utils.validation import ClassValidator
 from sklearn.metrics import roc_auc_score
 
 class CVModel:
-    
+    ''' Framework for the cross-validation of a given model. Enables custom validation splitting support. '''
     def __init__(self, get_model, fit_model):
         self.get_model = get_model
         self.fit_model = fit_model
