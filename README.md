@@ -1,4 +1,5 @@
-# [Digital Reputation Challenge](https://boosters.pro/championship/digital_reputation_challenge/overview), 8'th place solution
+# [Digital Reputation Challenge](https://boosters.pro/championship/digital_reputation_challenge/overview)
+8'th place solution
 **Author:** [Ambitious](https://boosters.pro/user/Ambitious)
 
 ## Notebooks
