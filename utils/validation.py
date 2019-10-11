@@ -92,4 +92,5 @@ class MultiClassValidator:
 
         label_splits.append(new_split)
         splits = list(map(lambda x: tuple(map(lambda y: sum(y, []), zip(*x))), zip(*label_splits)))
+        
         return splits
