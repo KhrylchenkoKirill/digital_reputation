@@ -44,15 +44,4 @@ class CVModel:
             return np.mean(scores)
         
     def predict(self, X):
-        
         return np.mean([model.predict_proba(X)[:, 1] for model in self.models], axis=0)
-    
-def get_cv_model(get_model, fit_model):
-    def f():
-        return CVModel(get_model, fit_model)
-    return f
-
-def fit_cv_model(n_splits, seed=19):
-    def f(model, X, y):
-        return model.fit(X, y, n_splits, seed=seed)
-    return f
