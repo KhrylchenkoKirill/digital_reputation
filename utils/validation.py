@@ -7,7 +7,7 @@ from collections import defaultdict
 import copy
 
 class Validator:
-    
+    ''' Random splitter. '''
     def __init__(self, ids):
         self.ids = ids
         self.n = len(ids)
@@ -39,7 +39,7 @@ class Validator:
         return splits
 
 class ClassValidator:
-    
+    ''' Multi-class splitter. '''
     def __init__(self, labels):
         class_ids = defaultdict(list)
         for idx, label in enumerate(labels):
@@ -53,7 +53,7 @@ class ClassValidator:
     
 
 class MultiClassValidator:
-    
+    ''' Hierarchical multi-class multi-dimensional splitter. '''
     def __init__(self, labels):
         self.class_ids = defaultdict(list)
         for idx, label in enumerate(map(tuple, labels)):
